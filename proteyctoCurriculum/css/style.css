@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #121927;
@@ -12,6 +12,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  font-size: 20px;
   background-color: #121927f7;
 }
 
@@ -147,6 +148,10 @@ p {
   color: #ffffff;
   margin-bottom: 20px;
 }
+.box-sobremi{
+  padding: 25px;
+  margin: 10px ;
+}
 .box-sobremi img{
     width: 400px;
     height: 500px;
@@ -155,6 +160,34 @@ p {
     border: 3px solid #333; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
+
+
+/*DATOS ACADEMICOS */
+
+.titulo-estudios{
+  text-align: center;
+  text-decoration: dashed;
+  font-size: 40px;
+}
+.contenedor-estudios{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;;
+  gap: 30px;
+}
+.box-estudios{
+  text-align: center;
+  background-color: #0202042f;
+  border-radius: 10px 50px;
+  padding: 15px;
+  margin: 15px;
+}
+.titulo-box-estudios{
+  font-size: 25px;
+}
+
+
 
 
 
