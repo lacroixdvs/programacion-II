@@ -1,0 +1,210 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121927;
+  color: #c9c9c9;
+}
+
+/*HEADER Y NAV*/
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #121927f7;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  padding: 20px;
+  background-color: #c9c9c9;
+  border-radius: 10px;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0c0b0b;
+}
+
+nav a:hover {
+  color: #eff0f0;
+}
+/*MAIN*/
+.contenedor-seccion {
+  text-align: center; 
+  padding-top: 100px;
+  background-image: url('../img/imgfondo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 100px);
+}
+
+h1 {
+  font-size: 90px;
+  color: #c9c9c9;
+  margin: 80px;
+}
+
+p {
+  font-size: 20px;
+  color: #c9c9c9;
+}
+
+.mi-boton {
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #887f7fa2;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.mi-boto:hover {
+  background-color: #020204;
+  color: #eff0f0;
+}
+
+
+/*SECCION BOX*/
+.title-box{ 
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.contenedor-seccion-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  text-align: center;
+  padding: 20px;
+}
+
+.box {
+  width: 300px;
+  height: 400px;
+  background-color: #c9c9c9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  color:#020204;
+}
+.box p{
+  color: #020204;
+}
+
+.contenedor-seccion-box img {
+  width: 240px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid #333; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* INDEX TERMINADO*/
+
+/* SOBRE MI*/
+
+
+.contenedor-seccion-sobremi{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  padding: 50px 20px;
+  background-color: #70758027;
+}
+.titulo-sobremi{
+  text-align: center;
+  font-size: 66px;
+  color: #ffffff;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.parrafo-sobremi{
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.box-sobremi img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px 50px;
+    border: 3px solid #333; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+
+
+
+
+/*-FOOTER--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #060f1ff7;
+  color: #c9c9c9;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
