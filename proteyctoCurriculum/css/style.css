@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #eff0f0;
+  color: #3a3b7b;
 }
 /*MAIN*/
 .contenedor-seccion {
@@ -79,6 +79,7 @@ p {
   color: #ffffff;
   text-decoration: underline;
   margin-bottom: 20px;
+  
 }
 
 .contenedor-seccion-box {
@@ -106,6 +107,7 @@ p {
   margin: 10px;
   border-radius: 10px;
   color:#020204;
+  font-weight: 200;
 }
 .box p{
   color: #020204;
@@ -146,6 +148,7 @@ p {
   text-align: center;
   font-size: 30px;
   color: #ffffff;
+  font-weight: 200;
   margin-bottom: 20px;
 }
 .box-sobremi{
