@@ -96,7 +96,7 @@ p {
 .box {
   width: 300px;
   height: 400px;
-  background-color: #c9c9c9;
+  background-color: #2d2d2d;
   border: 1px solid #ccc;
   padding: 20px;
   box-sizing: border-box;
@@ -110,7 +110,7 @@ p {
   font-weight: 200;
 }
 .box p{
-  color: #020204;
+  color: #ffffff;
 }
 
 .contenedor-seccion-box img {
@@ -135,7 +135,7 @@ p {
   justify-content: center;
   align-self: center;
   padding: 50px 20px;
-  background-color: #70758027;
+  background-color: #2d2d2d;
 }
 .titulo-sobremi{
   text-align: center;
@@ -181,7 +181,7 @@ p {
 }
 .box-estudios{
   text-align: center;
-  background-color: #0202042f;
+  background-color: #2d2d2d;
   border-radius: 10px 50px;
   padding: 15px;
   margin: 15px;
@@ -196,6 +196,173 @@ p {
 
 
 
+
+/* REDES*/
+/* CONTENEDOR PRINCIPAL */
+.contenedor-redes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: #0d1117;
+}
+
+/* TARJETA INDIVIDUAL */
+.boxes {
+  background-color: #2d2d2d;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.boxes:hover {
+  transform: translateY(-5px);
+}
+
+/* TÍTULOS */
+.titulo-box-redes {
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* IMÁGENES */
+.img-redes {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* BOTÓN BASE */
+.boton-redes {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* COLORES SEGÚN RED */
+.boton-fb {
+  background-color: #1877f2;
+}
+.boton-fb:hover {
+  background-color: #145dbf;
+}
+
+.boton-wa {
+  background-color: #121215;
+}
+
+/* TEXTO FINAL */
+.subtitle-box p {
+  color: #ddd;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+
+
+.whatsapp-link {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.whatsapp-link:hover {
+  background-color: #1ebe5d;
+}
+.boxes a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+.whatsapp-link {
+  background-color: #25D366;
+}
+
+.whatsapp-link:hover {
+  background-color: #1ebe5d;
+}
+
+.facebook-link {
+  background-color: #1877F2;
+}
+
+.facebook-link:hover {
+  background-color: #0e63d1;
+}
+
+.email-link {
+  background-color: #555555;
+}
+
+.email-link:hover {
+  background-color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #060f1ff7;
+  color: #c9c9c9;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
 
 
 
