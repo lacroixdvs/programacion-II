@@ -6,7 +6,7 @@ body {
   color: #c9c9c9;
 }
 :root {
-  --color-principal: #121927; /* Puedes cambiar este valor */
+  --color-principal: #121927; 
 }
 h1 {
   font-size: 90px;
@@ -131,7 +131,6 @@ nav a:hover {
 }
 
 
-/* INDEX TERMINADO*/
 
 /* SOBRE MI*/
 
@@ -206,7 +205,7 @@ nav a:hover {
 
 
 /* REDES*/
-/* CONTENEDOR PRINCIPAL */
+
 .contenedor-redes {
   display: flex;
   justify-content: center;
@@ -216,7 +215,7 @@ nav a:hover {
   background-color: #0d1117;
 }
 
-/* TARJETA INDIVIDUAL */
+
 .boxes {
   background-color: #2d2d2d;
   border-radius: 12px;
@@ -231,7 +230,6 @@ nav a:hover {
   transform: translateY(-5px);
 }
 
-/* TÍTULOS */
 .titulo-box-redes {
   color: white;
   font-size: 1.4rem;
@@ -239,7 +237,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* IMÁGENES */
 .img-redes {
   width: 100%;
   height: auto;
@@ -248,7 +245,7 @@ nav a:hover {
   margin-bottom: 15px;
 }
 
-/* BOTÓN BASE */
+
 .boton-redes {
   display: inline-block;
   margin: 10px 0;
@@ -260,7 +257,6 @@ nav a:hover {
   transition: background-color 0.3s ease;
 }
 
-/* COLORES SEGÚN RED */
 .boton-fb {
   background-color: #1877f2;
 }
@@ -330,89 +326,6 @@ nav a:hover {
 .email-link:hover {
   background-color: #333333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer {
-  background-color: #060f1ff7;
-  color: #c9c9c9;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-}
-
-
-
-
-
-/*-FOOTER--*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
