@@ -2,18 +2,36 @@ body {
   font-family: "Oswald", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #121927;
+  background-color: var(--color-principal);
+  color: #c9c9c9;
+}
+:root {
+  --color-principal: #121927; /* Puedes cambiar este valor */
+}
+h1 {
+  font-size: 90px;
+  color: #c9c9c9;
+  margin: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+  color: #c9c9c9;
+}
+
+p {
+  font-size: 20px;
   color: #c9c9c9;
 }
 
 /*HEADER Y NAV*/
 .contenedor {
+  flex-direction: row-reverse;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
   font-size: 20px;
-  background-color: #121927f7;
+  background-color: var(--color-principal);
 }
 
 nav ul {
@@ -44,16 +62,6 @@ nav a:hover {
   min-height: calc(100vh - 100px);
 }
 
-h1 {
-  font-size: 90px;
-  color: #c9c9c9;
-  margin: 80px;
-}
-
-p {
-  font-size: 20px;
-  color: #c9c9c9;
-}
 
 .mi-boton {
   font-size: 25px;
@@ -66,7 +74,7 @@ p {
   margin-top: 20px;
 }
 
-.mi-boto:hover {
+.mi-boton:hover {
   background-color: #020204;
   color: #eff0f0;
 }
